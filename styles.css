@@ -1,0 +1,52 @@
+body {
+    background-color: grey;
+    color: white;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+}
+
+.weapon {
+    height: 200px;
+    width: 200px;
+    font-size: 150px;
+    margin: 10px;
+    border-radius: 5px;
+    border: solid red;
+    cursor: pointer;
+    transition: 100ms;
+}
+
+.weapon:hover {
+    transform: scale(1.1);
+}
+
+.results {
+    display: grid;
+    justify-content: center;
+}
+
+.results-text {
+    font-size: 16px;
+}
+
+footer {
+    background-color: antiquewhite;
+    width: 100%; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: black;
+}
